@@ -1,0 +1,60 @@
+# =========================
+# Environment & API Keys
+# =========================
+.env
+.env.local
+.env.*.local
+
+# =========================
+# Data / Knowledge Base
+# =========================
+data/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+.venv/
+.env/
+
+# =========================
+# HuggingFace model cache
+# (models downloaded locally can be very large)
+# =========================
+~/.cache/huggingface/
+.cache/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace

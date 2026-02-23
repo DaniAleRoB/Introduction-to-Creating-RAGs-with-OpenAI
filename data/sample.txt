@@ -1,0 +1,18 @@
+
+Vector databases store embeddings as high-dimensional vectors.
+They enable similarity search using cosine distance.
+Popular vector databases include Pinecone, Weaviate, and ChromaDB.
+Pinecone is a managed vector database that offers a free tier for small projects.
+
+Retrieval-Augmented Generation (RAG) combines retrieval systems with large language models.
+This architecture improves factual grounding and reduces hallucinations.
+RAG systems first retrieve relevant documents, then use them as context for generation.
+The main advantage of RAG is that it allows LLMs to access external knowledge without retraining.
+
+Embeddings convert text into numerical representations that preserve semantic meaning.
+Similar texts produce embeddings that are close together in vector space.
+The all-MiniLM-L6-v2 model from sentence-transformers produces embeddings of 384 dimensions.
+
+LangChain is a framework for building applications with large language models.
+It provides tools for chaining components like retrievers, prompts, and models.
+LangChain supports many vector stores and embedding providers including Pinecone and HuggingFace.
